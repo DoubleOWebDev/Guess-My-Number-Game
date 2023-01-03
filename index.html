@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Expanding Cards</title>
-</head>
-<body>
-    <h1>Project Starter</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/78535d14e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <button>Again!</button>
+        <h4>(Between 1 and 20)</h4>
+      </section>
+      <h1>Guess My Number!</h1>
+    </header>
 
-    <script type = 'text/javascript' src="app.js"></script>
-</body>
+    <main id="gamePage">
+      <section id="result">
+        <p>?</p>
+      </section>
+
+      <section id="choice">
+        <input type="text" />
+        <button>Check!</button>
+      </section>
+
+      <section id="scoreResults">
+        <h3>
+          <i class="fa-solid fa-heart"> Score:</i>
+        </h3>
+
+        <h3>
+          <i class="fa-solid fa-medal">Highscore:</i>
+        </h3>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
 </html>

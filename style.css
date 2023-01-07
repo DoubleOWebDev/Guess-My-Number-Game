@@ -47,6 +47,7 @@ header section {
   margin-left: 10%;
   height: 10vh;
   text-align: center;
+  font-size: 3rem;
 }
 
 #result p {
@@ -78,7 +79,4 @@ header section {
 
 #scoreResults h3:nth-child(1) {
   margin-bottom: 5%;
-}
-
-#scoreResults {
 }

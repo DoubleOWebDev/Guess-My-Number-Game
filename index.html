@@ -14,7 +14,7 @@
   <body>
     <header>
       <section>
-        <button>Again!</button>
+        <button class="reset">Again!</button>
         <h4>(Between 1 and 20)</h4>
       </section>
       <h1>Guess My Number!</h1>
@@ -22,7 +22,7 @@
 
     <main id="gamePage">
       <section id="result">
-        <p>?</p>
+        <p id="hidden">?</p>
       </section>
 
       <section id="choice">
@@ -43,7 +43,9 @@
         </h3>
 
         <h3>
-          <i class="fa-solid fa-medal">Highscore:</i>
+          <i class="fa-solid fa-medal"
+            >Highscore: <span id="highScore"></span
+          ></i>
         </h3>
       </section>
     </main>
